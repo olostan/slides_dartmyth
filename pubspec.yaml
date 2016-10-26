@@ -1,0 +1,19 @@
+name: dartmyth
+description: Mythbusting Dart
+version: 0.0.1
+environment:
+  sdk: '>=1.19.0 <2.0.0'
+dependencies:
+  angular2: 2.0.0-beta.22
+  dacsslide: 
+    path: ../../dart/dacsslide
+  csslib_transform: '>=0.0.1 <0.1.0'
+dev_dependencies:
+  browser: ^0.10.0
+  dart_to_js_script_rewriter: ^1.0.1
+transformers:
+- dacsslide
+- csslib_transform
+- angular2:
+    entry_points: web/main.dart
+- dart_to_js_script_rewriter
