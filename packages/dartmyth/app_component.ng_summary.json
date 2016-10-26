@@ -1,0 +1,83 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:dacsslide/presentation_component.dart",
+        "5": false
+      },
+      {
+        "1": "package:dacsslide/sample_directive.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "7": [
+          {
+            "2": "PresentationComponent"
+          },
+          {
+            "2": "SymbolComponent"
+          },
+          {
+            "2": "SampleDirective"
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart"
+  },
+  "type": {
+    "AppComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "my-app",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "AppComponent",
+        "moduleUrl": "asset:dartmyth/lib/app_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<presentation slides=\"35\">\n    <symbol name=\"bg\"></symbol>\n    <symbol name=\"valP\"><img src=\"assets/Valentyn_gde_long.jpg\"></symbol>\n    <symbol name=\"valN\">Valentyn Shybanov</symbol>\n    <symbol name=\"val1\">http://cv.olostan.name/</symbol>\n    <symbol name=\"val2\">olostan@gmail.com</symbol>\n    <symbol name=\"valt\"><img src=\"assets/olo_talk.jpg\"></symbol>\n    <symbol name=\"ask\"><img src=\"assets/asking.jpg\"></symbol>\n    <symbol name=\"dlogo\"><img src=\"assets/dart-logo.png\"></symbol>\n    <symbol name=\"geeks\"><img src=\"assets/geeks.jpg\"></symbol>\n    <symbol name=\"suits\"><img src=\"assets/suits.jpg\"></symbol>\n    <symbol name=\"m1\">Dart is NodeJS!</symbol>\n    <symbol name=\"nodel\"><img src=\"assets/Node.js_logo.svg\"></symbol>\n    <symbol name=\"wat1\" sample=\"samples/wat.js\">[] + []</symbol>\n    <symbol name=\"nodeq\">Whant to write Web App?</symbol>\n    <symbol name=\"nodel1\">NPM</symbol>\n    <symbol name=\"nodel2\">JSPM</symbol>\n    <symbol name=\"nodel3\">Jarn</symbol>\n    <symbol name=\"nodel4\">Babel</symbol>\n    <symbol name=\"nodel5\">TypeScript</symbol>\n    <symbol name=\"nodel6\">Grant</symbol>\n    <symbol name=\"nodel7\">Gulp</symbol>\n    <symbol name=\"nodel8\">Broccoli</symbol>\n    <symbol name=\"nodel9\">Webpack</symbol>\n    <symbol name=\"m2\">NodeJS/.NET/Python has much more <span>usefull</span> modules!</symbol>\n    <symbol name=\"m2_pub\">Pub has <b>2270</b> packages.</symbol>\n    <symbol name=\"m3\">Nobody uses Dart!</symbol>\n    <symbol name=\"m3_g\">Google uses Dart!</symbol>\n    <symbol name=\"m3_a\"><img src=\"assets/dart_users.png\"></symbol>\n    <symbol name=\"m4\">Dart is another interpreter!</symbol>\n    <symbol name=\"m4_s\" sample=\"samples/snapshot.sh\"></symbol>\n    <symbol name=\"m5\">No Dart developers to hire!</symbol>\n    <symbol name=\"m5_p\"><img src=\"assets/dart_devs.JPG\"></symbol>\n    <symbol name=\"m5_p2\"><img src=\"assets/dartjssynonym.png\"></symbol>\n    <symbol name=\"\"></symbol>\n    <symbol name=\"busted\"><img src=\"assets/mythbusters_busted_spray.png\"></symbol>\n    <!-- \n        During my talk I will share my experience of converting people to Dart: starting from communities and ending enterprise-level companies. I will investigate most asked questions and problems and try to give answers to them. Short agenda (subject to change):\n- Communities:\n  - Dart vs popular alternatives (NodeJS/Python/.NET Core etc)\n  - 3td party libraries ( 2270 ) \n  - Development workflow \n  - Nobody uses Dart\n  https://www.dartlang.org/community/who-uses-dart\n  - Interpreted code \n  https://www.nikolaybotev.com/blog/dart-vs-java-the-deltablue-benchmark/\n  https://www.dartlang.org/articles/dart-vm/snapshots\n\n - Enterprise world\n   - Searching for Developers\n   - Stability and commitment\n   - Dart and Cloud\n   - Dart and platforms (Web/Flutter)\n   \n\n-->\n</presentation>",
+        "templateUrl": "asset:dartmyth/lib/app_component.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:dartmyth/lib/app_component.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [
+        {
+          "class": "Identifier",
+          "name": "SampleService",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
